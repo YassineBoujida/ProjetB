@@ -51,9 +51,5 @@ a.paragraph2{
     justify-content: center;
     }
 
-.box:hover{ 
-    box-shadow: 1px 8px 20px grey;
-   -webkit-transition:  box-shadow .4s ease-in;
- }
 
 </style>

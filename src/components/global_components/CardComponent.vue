@@ -1,6 +1,6 @@
 <template>
     
-        <div class="box ">
+        <div class="box is-shadowless">
                         <article class="media">
                           <div class="media-content">
                             <div class="content">
@@ -58,5 +58,8 @@ export default {
 </script>
 
 <style scoped>
-
+.box{
+    border-bottom : 1px solid rgb(194, 187, 187);
+    border-radius: 0px;
+}
 </style>
