@@ -1,28 +1,59 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Layout />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+import Layout from "@/components/Layout";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+
+  name : "app",
+  components:{
+    Layout
   }
+  
 }
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .about {
+   color:purple
 }
+
+.paragraph{
+    color:#637D9C
+}
+
+a.paragraph2{
+    color:purple
+}
+
+.card, .card2{
+    background-color:#554E63 !important
+}
+
+.since-paragraph{
+    border-left: 2px solid gray;
+}
+
+.content2 figure{
+      margin:0!important;
+  }
+
+  .is-horizontal-center {
+    justify-content: center;
+    }
+
+.box:hover{ 
+    box-shadow: 1px 8px 20px grey;
+   -webkit-transition:  box-shadow .4s ease-in;
+ }
+
 </style>
